@@ -9,8 +9,8 @@ st.set_page_config(
 )
 
 # Load Data
-climate_df = pd.read_csv("data/climate_data.csv")
-forecast_df = pd.read_csv("data/temperature_forecast.csv")
+climate_df = pd.read_csv("climate_data.csv")
+forecast_df = pd.read_csv("temperature_forecast.csv")
 
 # Convert Date Columns
 climate_df["Date"] = pd.to_datetime(climate_df["Date"])
