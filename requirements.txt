@@ -1,5 +1,7 @@
-streamlit
 pandas
-plotly
-prophet
 numpy
+matplotlib
+seaborn
+requests
+prophet
+scikit-learn
